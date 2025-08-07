@@ -1,0 +1,52 @@
+# Laravel
+/vendor
+/storage/*.key
+/public/storage
+/public/hot
+/public/build
+/public/mix-manifest.json
+.env
+.env.*.backup
+.phpunit.result.cache
+
+# Storage (exceto se quiser versionar algo específico)
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Node.js
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Composer
+composer.lock
+
+# Laravel Mix / Vite
+/vite.config.js
+/.vite
+
+# IDEs e SOs
+/.idea
+/.vscode
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test coverage
+/coverage
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Dumps de banco de dados MySQL
+*.sql
+*.sql.gz
+*.dump
+
